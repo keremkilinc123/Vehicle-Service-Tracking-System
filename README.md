@@ -1,2 +1,31 @@
-# Vehicle-Service-Tracking-System
-Full-stack desktop application for managing auto repair shops. Includes modules for customer-vehicle pairing, technician assignments, and financial payment tracking.
+# VehicleServiceManagementSystem
+
+A desktop-based vehicle service management system built with Python, Tkinter, and MySQL.
+
+## Features
+
+- User authentication
+- Customer and vehicle management
+- Technician management
+- Service record tracking
+- Payment processing
+- Revenue summary dashboard
+- Full CRUD operations
+
+## Technologies
+
+- Python
+- Tkinter
+- MySQL
+- mysql-connector-python
+
+## Run
+
+```bash
+pip install mysql-connector-python
+python main_app.py
+```
+
+## Database
+
+The project uses a relational MySQL database with normalized schema design and foreign key constraints.
